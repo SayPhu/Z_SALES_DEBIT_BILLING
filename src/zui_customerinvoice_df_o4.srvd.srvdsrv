@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_CUSTOMERINVOICE_DF'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_CUSTOMERINVOICE_DF'
+  }
+}
+define service ZUI_CUSTOMERINVOICE_DF_O4 provider contracts odata_v4_ui {
+  expose ZC_CUSTOMERINVOICE_DF;
+}
