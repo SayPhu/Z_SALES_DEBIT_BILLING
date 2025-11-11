@@ -1,9 +1,0 @@
-projection;
-strict ( 1 );
-
-define behavior for ZC_CUSTOMERINVOICE_DF //alias <alias_name>
-{
-  use delete;
-  use action createInvoice;
-  use action createBilling;
-}
